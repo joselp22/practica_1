@@ -1,0 +1,15 @@
+Implementa HU-001 a partir de hu/HU-001.md y config/contrato-tecnico.md, con control humano.
+
+Antes de editar, presenta una matriz CA-01..CA-05 con el archivo que planeas modificar y cómo comprobarás cada criterio. Identifica cualquier ambigüedad e indica qué no se puede asumir. No inventes reglas, endpoints ni servicios no definidos.
+
+Después, implementa solamente el alcance aprobado en HU-001, añade pruebas para los casos válidos y límites, y ejecútalas si el entorno lo permite. No reportes pruebas como aprobadas si no se ejecutaron realmente. Informa resultados exactos de los comandos, archivos modificados y decisiones que requieran aprobación humana.
+
+CHECKLIST OBLIGATORIO AL CERRAR:
+[ ] Todos los CA-01..CA-05 tienen implementación y evidencia.
+[ ] Sin funcionalidades añadidas fuera del alcance.
+[ ] Títulos inválidos se rechazan y no se almacenan.
+[ ] Las pruebas existen y se informa cuáles fueron realmente ejecutadas.
+[ ] Se puede seguir cada requisito hasta el código y la prueba.
+[ ] Se identifican limitaciones o riesgos pendientes.
+
+Si necesitas una decisión que modifique el alcance, detente en esa decisión y pide aprobación en lugar de inventarla.
